@@ -1,0 +1,17 @@
+*/config/development
+*/logs/log-*.php
+writable/logs/*
+!writable/logs/index.html
+writable/session/*
+!writable/session/index.html
+writable/uploads/*
+!writable/uploads/index.html
+writable/cache/*
+!writable/cache/index.html
+*/cache/*
+writable/debugbar/*
+nodcms/config/database.php
+vendor
+.idea
+docker/data/*
+.env
